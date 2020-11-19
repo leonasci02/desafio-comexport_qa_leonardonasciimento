@@ -15,7 +15,7 @@ import io.cucumber.junit.CucumberOptions.SnippetType;
 		monochrome = true, 
 		glue = "", 
 		dryRun = false, 
-		tags = "@Web")
+		tags = "")
 
 public class ExecutarTest {
 
