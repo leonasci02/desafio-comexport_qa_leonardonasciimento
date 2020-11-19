@@ -26,7 +26,7 @@ Realizado o desafio de automação de testes para a empresa Comexport.
 6. Após a conclusão, devemos subir o servidor do spring-boot:
     - mvn spring-boot:run
 
-#### OBS: devemos ter configurado na máquina o java path e o maven path
+#### OBS: A máquina deve possuir a configuração do java path e maven home
 
 ### Configuração para execução dos testes automatizado
 
