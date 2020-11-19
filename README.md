@@ -13,13 +13,13 @@ Realizado o desafio de automação de testes para a empresa Comexport.
 - unirest
 - log4j
 
-### Pré-Condições de execução
+### Pré-Condição de execução
 
 1. Acessar o link do repositório do desafio: https://github.com/comexport/qa_engineer_test.git
 2. Criar uma pasta local em sua máquina
 3. Abrir o prompt de comando e digitar a seguinte instrução: 
      - git clone https://github.com/comexport/qa_engineer_test.git
-4. No prompt ir até a pasta criada, exemplo:
+4. Ainda no prompt, ir até a pasta criada, exemplo:
     - cd qa_engineer_test
 5. Na raiz do projeto baixado, deve ser digitado a seguinte instrução:
     - mvn clean install
@@ -28,20 +28,20 @@ Realizado o desafio de automação de testes para a empresa Comexport.
 
 #### OBS: A máquina deve possuir a configuração do java path e maven home
 
-### Configuração para execução dos testes automatizado
+### Configuração para execução dos testes automatizados
 
-1. Acessar o link do repositório com a automação: https://github.com/leonasci02/desafio-comexport_qa_leonardonasciimento.git
+1. Acessar o link dos testes automatizados: https://github.com/leonasci02/desafio-comexport_qa_leonardonasciimento.git
 2. Criar uma pasta local em sua máquina
 3. Abrir o prompt de comando e digitar a seguinte instrução: 
      - git clone https://github.com/leonasci02/desafio-comexport_qa_leonardonasciimento.git
-4. No prompt ir até a pasta criada, exemplo:
+4. Ainda no prompt, ir até a pasta criada, exemplo:
     - cd desafio-comexport_qa_leonardonasciimento
 5. Na raiz do projeto baixado, deve ser digitado a seguinte instrução:
     - mvn install -Dmaven.test.skip=true
     
 ### Executar os testes automatizados
 
-Para executar os testes automatizados de API e Web devemos seguir os passos abaixo:
+Para executar os testes automatizados de API e Web devemos seguir os passos abaixos:
 
 #### API: 
 
