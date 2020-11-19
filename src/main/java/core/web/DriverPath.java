@@ -3,6 +3,7 @@ package core.web;
 import org.apache.log4j.Logger;
 import org.openqa.selenium.WebDriver;
 
+import exceptions.NavegadorException;
 import log.LogSetup;
 
 public class DriverPath {
@@ -30,10 +31,8 @@ public class DriverPath {
 		case "Linux":
 			pathLinux(navegador, driver , headless);
 			break;
-			
 		default:
-			System.err.println(mensagem);
-			break;
+			throw new NavegadorException(navegador);
 		}
 	}
 	
